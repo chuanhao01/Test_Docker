@@ -8,6 +8,8 @@ RUN python3 -m pip install \
     torch \
     torchvision \
     onnx \
-    onnxruntime
+    onnxruntime \
+    jupyterlab \
+    tensorboard
 
 WORKDIR /workspace
