@@ -10,6 +10,7 @@ RUN python3 -m pip install \
     onnx \
     onnxruntime \
     jupyterlab \
-    tensorboard
+    tensorboard \
+    matplotlib
 
 WORKDIR /workspace
