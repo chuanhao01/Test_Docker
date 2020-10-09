@@ -11,6 +11,7 @@ RUN python3 -m pip install \
     onnxruntime \
     jupyterlab \
     tensorboard \
-    matplotlib
+    matplotlib \
+    youtube-dl
 
 WORKDIR /workspace
