@@ -12,6 +12,7 @@ RUN python3 -m pip install \
     jupyterlab \
     tensorboard \
     matplotlib \
-    youtube-dl
+    youtube-dl \
+    gdown
 
 WORKDIR /workspace
