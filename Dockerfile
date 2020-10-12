@@ -16,6 +16,7 @@ RUN python3 -m pip install \
     gdown \
     PyYAML \
     scipy \
-    tqdm
+    tqdm \
+    pandas
 
 WORKDIR /workspace
