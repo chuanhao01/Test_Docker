@@ -17,6 +17,7 @@ RUN python3 -m pip install \
     PyYAML \
     scipy \
     tqdm \
-    pandas
+    pandas \
+    ipywidgets
 
 WORKDIR /workspace
