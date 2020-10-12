@@ -13,6 +13,7 @@ RUN python3 -m pip install \
     tensorboard \
     matplotlib \
     youtube-dl \
-    gdown
+    gdown \
+    PyYAML
 
 WORKDIR /workspace
