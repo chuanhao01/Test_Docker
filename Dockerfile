@@ -14,6 +14,8 @@ RUN python3 -m pip install \
     matplotlib \
     youtube-dl \
     gdown \
-    PyYAML
+    PyYAML \
+    scipy \
+    tqdm
 
 WORKDIR /workspace
